@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.cache/
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
