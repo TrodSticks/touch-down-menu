@@ -1,0 +1,217 @@
+{
+  "menu": [
+    {
+      "category": "Casual Favorites",
+      "subCategories": [
+        {
+          "name": "Pasta & Salads",
+          "items": [
+            { "id": 2000, "name": "Chicken Pasta", "description": "Creamy Chicken Breast, Mixed Peppers, Mushrooms & Penne Pasta garnished with Parmesan Cheese.", "price": "P110" },
+            { "id": 2001, "name": "Tomato & Mushroom Pasta", "description": "Sundried Tomatoes, Mushrooms, Napolitano Sauce & Penne Pasta garnished with Parmesan Cheese.", "price": "P75" },
+            { "id": 2002, "name": "Spaghetti Bolognese", "description": "Spaghetti, Ground Beef tossed in a Napolitano Sauce garnished with Parmesan Cheese.", "price": "P85" },
+            { "id": 2003, "name": "Seafood Pasta", "description": "Seafood Mix tossed in a Creamy White Wine Sauce & Penne Pasta garnished with Parmesan Cheese.", "price": "P130" },
+            { "id": 2004, "name": "Vegetable Stir-Fry", "description": "Egg Noodles, Carrots, Red Cabbage, Onion, Mixed Peppers tossed in a Soy Sauce with Garlic & Ginger.", "price": "P75" },
+            { "id": 2005, "name": "Beef Vegetable Stir-Fry", "description": "200g Beef, Egg Noodles, Carrots, Red Cabbage, Onion, Mixed Peppers tossed in a Soy Sauce with Garlic & Ginger.", "price": "P100" },
+            { "id": 2006, "name": "Chicken Vegetable Stir-Fry", "description": "200g Chicken, Egg Noodles, Carrots, Red Cabbage, Onion, Mixed Peppers tossed in a Soy Sauce with Garlic & Ginger.", "price": "P105" },
+            { "id": 2007, "name": "Touch Down Salad", "description": "Lettuce, Tomato, Cucumber, Onion, Green Peppers, Sundried Tomatoes, Parmesan Cheese & Crispy Tortilla Chips with toppings of Cheddar Cheese, Guacamole, Jalapenos.", "price": "P65" },
+            { "id": 2008, "name": "Chicken Salad", "description": "Lettuce, Tomato, Cucumber, Onion, Green Peppers, Chicken, Mushroom & Bacon.", "price": "P95" },
+            { "id": 2009, "name": "Greek Salad", "description": "Lettuce, Tomato, Cucumber, Onion, Green Peppers, Feta Cheese & Olives.", "price": "P55" }
+          ]
+        },
+        {
+          "name": "Toasted Sandwiches",
+          "items": [
+            { "id": 2010, "name": "Cheese & Tomato", "description": "Served on Brown Or White Bread with a Side of Fries or Side Salad.", "price": "P45" },
+            { "id": 2011, "name": "Chicken Mayonnaise", "description": "Served on Brown Or White Bread with a Side of Fries or Side Salad.", "price": "P55" },
+            { "id": 2012, "name": "Egg, Bacon & Cheese", "description": "Served on Brown Or White Bread with a Side of Fries or Side Salad.", "price": "P65" },
+            { "id": 2013, "name": "Bacon, Lettuce & Tomato", "description": "Served on Brown Or White Bread with a Side of Fries or Side Salad.", "price": "P55" },
+            { "id": 2014, "name": "Mince, Onion & Green Pepper", "description": "Served on Brown Or White Bread with a Side of Fries or Side Salad.", "price": "P50" }
+          ]
+        },
+        {
+          "name": "On The Lighter Side",
+          "items": [
+            { "id": 2015, "name": "Chicken Strips & Fries", "description": "Crumbed Chicken Strips served with Fish and Chips.", "price": "P75" },
+            { "id": 2016, "name": "Nachos", "description": "Tortilla chips with toppings of cheddar cheese, Guacamole, Jalapeños.", "price": "P75" }
+          ]
+        },
+        {
+          "name": "Team Combos",
+          "items": [
+            { "id": 2017, "name": "Ribs & Wings", "description": "300g Pork Ribs, 3 Chicken Wings. Served with a choice of Starch.", "price": "P210" },
+            { "id": 2018, "name": "Ribs & Calamari", "description": "300g Pork Ribs, 150g Calamari. Served with a choice of Starch.", "price": "P235" },
+            { "id": 2019, "name": "Ribs & Prawns", "description": "300g Pork Ribs, 4 Queen Prawns. Served with a choice of Starch.", "price": "P280" },
+            { "id": 2020, "name": "Calamari & Prawns", "description": "150g Calamari, 4 Queen Prawns. Served with a choice of Starch.", "price": "P235" },
+            { "id": 2021, "name": "Hake & Prawns", "description": "Hake, 4 Queen Prawns. Served with a choice of Starch.", "price": "P210" },
+            { "id": 2022, "name": "Kingklip & Prawns", "description": "Kingklip, 4 Queen Prawns. Served with a choice of Starch.", "price": "P300" },
+            { "id": 2023, "name": "Steak & Prawns", "description": "300g Rump Steak, 4 Queen Prawns. Served with a choice of Starch.", "price": "P280" },
+            { "id": 2024, "name": "1/2 Chicken & Prawns", "description": "Half chicken, 4 queen prawns. Served with a choice of Starch.", "price": "P230" }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Breakfast & Starters",
+      "subCategories": [
+        {
+          "name": "Early Birds",
+          "items": [
+            { "id": 1, "name": "Touch Down Breakfast", "description": "2 Eggs, 2 Bacon Rashers, 2 Beef Chipolata Sausages, Sautéed Mushrooms, Fried Tomato, Baked Beans, Fries & 2 Slices of Toast.", "price": "P120" },
+            { "id": 2, "name": "Traditional Breakfast", "description": "2 Eggs, 2 Bacon Rashers, 1 Beef Chipolata Sausage, Fried Tomato, Baked Beans, Fries & 2 Slices of Toast.", "price": "P90" },
+            { "id": 300, "name": "3 Egg Omelette - Meat", "description": "Bacon or Ham, Mushrooms, Cheese, Red Onion & Tomato. Served with Fries and a Slice of Toast.", "price": "P95" },
+            { "id": 301, "name": "3 Egg Omelette - Cheese", "description": "Feta, Cheddar, Mozzarella. Served with Fries and a Slice of Toast.", "price": "P90" },
+            { "id": 302, "name": "3 Egg Omelette - Vegetarian", "description": "Mixed Peppers, Red Onion, Tomato & Mushrooms. Served with Fries and a Slice of Toast.", "price": "P70" },
+            { "id": 6, "name": "Bacon & Egg Roll", "description": "1 Fried Egg, 2 Rashers of Bacon served on a Toasted Sesame Seed Bun with a Side of Fries.", "price": "P55" },
+            { "id": 7, "name": "Mince on Toast", "description": "Mince on 2 Slices of Toast, 2 Eggs, Mushrooms & Fried Tomato.", "price": "P70" },
+            { "id": 8, "name": "French Toast", "description": "3 Slices of French Toast with Cheddar Cheese, 2 Bacon Rashers with Syrup.", "price": "P60" },
+            { "id": 9, "name": "Add-Ons", "description": "Egg (P5), Toast (P5), Baked Beans (P10), Beef Chipolata (P15), Cheddar Cheese (P20), Grilled Mushrooms (P15), 2 Bacon Rasher (P20), Beef Patty (P25), Mince (P20), Olives (P20)", "price": "" }
+          ]
+        },
+        {
+          "name": "Kick-Off Starters",
+          "items": [
+            { "id": 10, "name": "Beef Carpaccio", "description": "Thinly Sliced Preserved Beef Fillet served with Parmesan Cheese & Capers.", "price": "P100" },
+            { "id": 11, "name": "Calamari Starter", "description": "Fried OR Grilled Calamari served with Tartar Sauce.", "price": "P95" },
+            { "id": 12, "name": "Chicken Livers", "description": "Served in a Chilli Gravy with Finger Bread.", "price": "P60" },
+            { "id": 500, "name": "Chorizo", "description": "100g Chorizo Sausage.", "price": "P85" },
+            { "id": 501, "name": "Chorizo & Calamari", "description": "50g Chorizo Sausage, 75g Calamari Tubes & Heads Flambéed in a Lime Garlic & Herb Butter Sauce served with Finger Bread.", "price": "P110" },
+            { "id": 502, "name": "Sliced Biltong", "description": "300g Biltong.", "price": "P130" },
+            { "id": 14, "name": "Jalapeno Poppers", "description": "3 Cream Cheese Stuffed Jalapenos, Crumbed & Deep Fried.", "price": "P60" },
+            { "id": 15, "name": "Oysters", "description": "One oyster served in a half shell on a bed of shaved ice.", "price": "P40" },
+            { "id": 16, "name": "Halloumi Cheese", "description": "3 Fried or Grilled Halloumi Fingers served with a Sweet Chilli Sauce.", "price": "P85" },
+            { "id": 17, "name": "Prawn Cakes", "description": "3 Prawn Cakes Deep-fried and served with Sweet Chilli Sauce.", "price": "P70" },
+            { "id": 503, "name": "Garlic Snails", "description": "Served with Finger Bread.", "price": "P75" },
+            { "id": 504, "name": "Mozzarella Garlic Snails", "description": "Served with Finger Bread.", "price": "P90" },
+            { "id": 505, "name": "Crumbed Mushrooms", "description": "Crumbed and Deep Fried Mushrooms served with Tartar Sauce.", "price": "P55" }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Main Event",
+      "items": [
+        { "id": 1000, "name": "Touchdown Tomahawk Steak 900g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P300" },
+        { "id": 1001, "name": "Touchdown Tomahawk Steak 600g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P210" },
+        { "id": 21, "name": "Half Chicken", "description": "Lemon & Herb, Mild, Peri-Peri, BBQ or Honey Mustard. Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P110" },
+        { "id": 22, "name": "Full Chicken", "description": "Lemon & Herb, Mild, Peri-Peri, BBQ or Honey Mustard. Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P165" },
+        { "id": 1002, "name": "Grilled Chicken Wings", "description": "Choice of Lemon & Herb, Mild, Peri-Peri, BBQ or Honey Mustard. (Popup: 6 Wings P140, 12 Wings P270, 18 Wings P360, 6 Dunked Chicken Wings P145)", "price": "" },
+        { "id": 1003, "name": "Pork", "description": "Chops 300g P110, Spare Ribs 300g P150, Spare Ribs 600g P280, Spare Ribs 900g P420, Sticky Pork Ribs 300g P150 (Popup)", "price": "" },
+        { "id": 1004, "name": "Oxtail & Pap", "description": "Hearty Oxtail Stew served with Pap and Vegetables of the day.", "price": "P150" },
+        { "id": 1005, "name": "Traditional Seswaa", "description": "Served with a choice of Starch.", "price": "P100" },
+        { "id": 25, "name": "T-Bone 500g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P180" },
+        { "id": 1006, "name": "Fillet 300g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P170" },
+        { "id": 1007, "name": "Rib Eye 300g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P160" },
+        { "id": 1008, "name": "Rump Steak 300g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P155" },
+        { "id": 1009, "name": "Aged Steak 350g", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P200" },
+        { "id": 1010, "name": "Steak, Egg & Fries", "description": "Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P160" },
+        { "id": 1011, "name": "Beef Trinchado", "description": "300g Rump Steak, Fried Egg and Fries. Served with a choice of either Fries, Vegetables of the day, Side Salad, Rice or Pap & Gravy.", "price": "P130" },
+        { "id": 1012, "name": "Sauces", "description": "Choice of: Mushroom, Pepper, Garlic, Cheese, Peri-Peri", "price": "P30" },
+        { "id": 1013, "name": "Lamb Chops 300g", "description": "Subject to availability.", "price": "P180" },
+        { "id": 1014, "name": "Curry Dishes", "description": "Served with Poppadum, Tomato & Onion Mix. (Popup: Prawn Curry P175, Lamb Curry P155, Chicken Curry P120)", "price": "" }
+      ]
+    },
+    {
+      "category": "Casual Favorites",
+      "subCategories": [
+        { "name": "Burgers", "items": [{ "id": 34, "name": "Touch Down Burger", "description": "2 Burger Patties 150g, 2 Bacon Rashers, Mozzarella, Cheddar, Feta, Egg & Secret Sauce.", "price": "P150" }] },
+        { "name": "Toasted Sandwiches", "items": [{ "id": 70, "name": "Chicken Mayonnaise", "description": "Served on Brown or White Bread with Fries or Salad.", "price": "P55" }] },
+        { "name": "Pizza", "items": [{ "id": 38, "name": "Margarita", "description": "Mozzarella.", "price": "P70" }] },
+        { "name": "Pasta & Salads", "items": [{ "id": 53, "name": "Chicken Pasta", "description": "Creamy Chicken Breast, Mixed Peppers, Mushrooms & Penne Pasta.", "price": "P110" }] }
+      ]
+    },
+    {
+      "category": "Sushi",
+      "subCategories": [
+        { "name": "Sushi Rolls & Items", "items": [{ "id": 60, "name": "California Salmon Roll (8pcs)", "description": "", "price": "P85" }] },
+        { "name": "Sushi Platters", "items": [{ "id": 100, "name": "Touch Down Platter (30pcs)", "description": "A grand selection of rolls, roses, and sashimi.", "price": "P410" }] }
+      ]
+    },
+    {
+      "category": "Kids Menu",
+      "subCategories": [
+        {
+          "name": "Breakfast",
+          "items": [
+            { "id": 200, "name": "French Toast with Syrup & Cheese", "description": "", "price": "P35" },
+            { "id": 201, "name": "1 Fried Egg, 1 Bacon Rasher, Baked Beans & Toast", "description": "", "price": "P40" }
+          ]
+        },
+        {
+          "name": "Pizza",
+          "items": [
+            { "id": 202, "name": "Cheese Pizza", "description": "", "price": "P50" },
+            { "id": 203, "name": "Ham & Cheese Pizza", "description": "", "price": "P60" },
+            { "id": 204, "name": "Thor's Mini Pizza", "description": "", "price": "P60" }
+          ]
+        },
+        {
+          "name": "Meals",
+          "items": [
+            { "id": 205, "name": "Hake Nuggets & Fries", "description": "", "price": "P65" },
+            { "id": 206, "name": "Chicken Burger & Fries", "description": "", "price": "P50" },
+            { "id": 207, "name": "Chicken Strips & Fries", "description": "", "price": "P50" },
+            { "id": 208, "name": "Beef Burger & Fries", "description": "", "price": "P45" },
+            { "id": 215, "name": "Hot Dog & Fries", "description": "", "price": "P40" },
+            { "id": 216, "name": "Cheesy Fries", "description": "", "price": "P35" }
+          ]
+        },
+        {
+          "name": "Ice Cream",
+          "items": [
+            { "id": 209, "name": "Soft Serve Ice Cream Cone", "description": "", "price": "P15" },
+            { "id": 210, "name": "Soft Serve Ice Cream Cup", "description": "", "price": "P20" }
+          ]
+        },
+        {
+          "name": "Floats",
+          "items": [
+            { "id": 211, "name": "Coke", "description": "", "price": "P35" },
+            { "id": 212, "name": "Fanta", "description": "", "price": "P35" },
+            { "id": 217, "name": "Crème Soda", "description": "", "price": "P35" }
+          ]
+        },
+        {
+          "name": "Slush Puppies",
+          "items": [
+            { "id": 213, "name": "Raspberry", "description": "", "price": "P20" },
+            { "id": 214, "name": "Blueberry", "description": "", "price": "P20" },
+            { "id": 218, "name": "Crème Soda", "description": "", "price": "P20" }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Platters & More",
+      "subCategories": [
+        { "name": "Something Different", "items": [{ "id": 110, "name": "Touchdown Platter (for 8)", "description": "Riblets, Chicken Wings, Samoosas, Boerewors, Meat Balls, Beef & Chicken Strips.", "price": "P850" }] },
+        { "name": "Sides & Add-ons", "items": [{ "id": 111, "name": "Fries", "description": "", "price": "P25" }] }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "subCategories": [
+        { "name": "Beers & Ciders", "items": [{ "id": 80, "name": "Castle Lite", "description": "Local Beer", "price": "P30" }] },
+        { 
+          "name": "Wines", 
+          "items": [
+            { "id": 82, "name": "House Wine Per Glass", "description": "Red or White", "price": "P35" },
+            { "id": 83, "name": "Durbanville Hills Chardonnay", "description": "Bottle", "price": "P200" }
+          ]
+        },
+        { 
+          "name": "Spirits & Bottles",
+          "items": [
+            { "id": 120, "name": "Jack Daniels", "description": "Whisky", "price": "P30" },
+            { "id": 121, "name": "Bombay Sapphire 750ml", "description": "Gin Bottle", "price": "P820" }
+          ]
+        },
+        { 
+          "name": "Cocktails & Mixers", 
+          "items": [
+            { "id": 84, "name": "Touch Down Rainbow", "description": "Grenadine, Vodka, Peach Liquor, Orange Juice, Blue Caracao.", "price": "P90" }
+          ]
+        }
+      ]
+    }
+  ]
+}

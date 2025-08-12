@@ -1,0 +1,118 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 245 241 232;
+    --foreground: 107 26 40;
+
+    --card: 255 255 255;
+    --card-foreground: 107 26 40;
+
+    --popover: 255 255 255;
+    --popover-foreground: 107 26 40;
+
+    --primary: 139 38 53;
+    --primary-foreground: 245 241 232;
+
+    --secondary: 232 220 198;
+    --secondary-foreground: 107 26 40;
+
+    --muted: 232 220 198;
+    --muted-foreground: 139 69 19;
+
+    --accent: 205 133 63;
+    --accent-foreground: 245 241 232;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 232 220 198;
+    --input: 232 220 198;
+    --ring: 139 38 53;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 107 26 40;
+    --foreground: 245 241 232;
+
+    --card: 107 26 40;
+    --card-foreground: 245 241 232;
+
+    --popover: 107 26 40;
+    --popover-foreground: 245 241 232;
+
+    --primary: 245 241 232;
+    --primary-foreground: 107 26 40;
+
+    --secondary: 139 69 19;
+    --secondary-foreground: 245 241 232;
+
+    --muted: 139 69 19;
+    --muted-foreground: 205 133 63;
+
+    --accent: 139 69 19;
+    --accent-foreground: 245 241 232;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 139 69 19;
+    --input: 139 69 19;
+    --ring: 245 241 232;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .restaurant-gradient {
+    background: linear-gradient(135deg, theme('colors.restaurant.red') 0%, theme('colors.restaurant.red-dark') 100%);
+  }
+  
+  .wood-texture {
+    background: linear-gradient(45deg, theme('colors.restaurant.wood') 0%, theme('colors.restaurant.wood-light') 50%, theme('colors.restaurant.wood') 100%);
+  }
+}
